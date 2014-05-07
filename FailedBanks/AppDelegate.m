@@ -7,14 +7,28 @@
 //
 
 #import "AppDelegate.h"
+#import "FailedBankInfo.h"
+#import "FailedBankDatabase.h"
+#import "FailedBankListViewController.h"
 
 @implementation AppDelegate
-
+@synthesize nav;
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    
+    FailedBankListViewController *bankView = [[FailedBankListViewController alloc] init];
+    nav = [[UINavigationController alloc] initWithRootViewController:bankView];
+    
+    NSArray *failedBankInfos = [FailedBankDatabase database].failedBankInfos;
+    for (FailedBankInfo *info in failedBankInfos) {
+        NSLog(@"%d: %@, %@, %@", info.uniqueId, info.name, info.city, info.state);
+    }
+    
+    self.window.rootViewController = nav;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

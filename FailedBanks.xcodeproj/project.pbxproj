@@ -19,6 +19,16 @@
 		CD60D4AA191A00AB00782EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60D492191A00AB00782EDF /* UIKit.framework */; };
 		CD60D4B2191A00AB00782EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD60D4B0191A00AB00782EDF /* InfoPlist.strings */; };
 		CD60D4B4191A00AB00782EDF /* FailedBanksTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D4B3191A00AB00782EDF /* FailedBanksTests.m */; };
+		CD60D4BE191A00D700782EDF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CD60D4BD191A00D700782EDF /* libsqlite3.dylib */; };
+		CD60D4C3191A027000782EDF /* banklist.csv in Resources */ = {isa = PBXBuildFile; fileRef = CD60D4C0191A027000782EDF /* banklist.csv */; };
+		CD60D4C4191A027000782EDF /* banklist.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = CD60D4C1191A027000782EDF /* banklist.sqlite3 */; };
+		CD60D4C5191A027000782EDF /* parseBanklist.py in Resources */ = {isa = PBXBuildFile; fileRef = CD60D4C2191A027000782EDF /* parseBanklist.py */; };
+		CD60D51A191A0E9800782EDF /* FailedBankInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D519191A0E9800782EDF /* FailedBankInfo.m */; };
+		CD60D51D191A0EE100782EDF /* FailedBankDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D51C191A0EE100782EDF /* FailedBankDatabase.m */; };
+		CD60D520191A166800782EDF /* FailedBankListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D51F191A166800782EDF /* FailedBankListViewController.m */; };
+		CD60D523191A19AA00782EDF /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D522191A19AA00782EDF /* FailedBankDetails.m */; };
+		CD60D527191A1BCB00782EDF /* FailedBanksDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D525191A1BCB00782EDF /* FailedBanksDetailViewController.m */; };
+		CD60D528191A1BCB00782EDF /* FailedBanksDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD60D526191A1BCB00782EDF /* FailedBanksDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,21 @@
 		CD60D4AF191A00AB00782EDF /* FailedBanksTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FailedBanksTests-Info.plist"; sourceTree = "<group>"; };
 		CD60D4B1191A00AB00782EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD60D4B3191A00AB00782EDF /* FailedBanksTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FailedBanksTests.m; sourceTree = "<group>"; };
+		CD60D4BD191A00D700782EDF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CD60D4C0191A027000782EDF /* banklist.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = banklist.csv; sourceTree = "<group>"; };
+		CD60D4C1191A027000782EDF /* banklist.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = banklist.sqlite3; sourceTree = "<group>"; };
+		CD60D4C2191A027000782EDF /* parseBanklist.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = parseBanklist.py; sourceTree = "<group>"; };
+		CD60D518191A0E9800782EDF /* FailedBankInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankInfo.h; sourceTree = "<group>"; };
+		CD60D519191A0E9800782EDF /* FailedBankInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankInfo.m; sourceTree = "<group>"; };
+		CD60D51B191A0EE100782EDF /* FailedBankDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDatabase.h; sourceTree = "<group>"; };
+		CD60D51C191A0EE100782EDF /* FailedBankDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDatabase.m; sourceTree = "<group>"; };
+		CD60D51E191A166800782EDF /* FailedBankListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankListViewController.h; sourceTree = "<group>"; };
+		CD60D51F191A166800782EDF /* FailedBankListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankListViewController.m; sourceTree = "<group>"; };
+		CD60D521191A19AA00782EDF /* FailedBankDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBankDetails.h; sourceTree = "<group>"; };
+		CD60D522191A19AA00782EDF /* FailedBankDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBankDetails.m; sourceTree = "<group>"; };
+		CD60D524191A1BCB00782EDF /* FailedBanksDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBanksDetailViewController.h; sourceTree = "<group>"; };
+		CD60D525191A1BCB00782EDF /* FailedBanksDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBanksDetailViewController.m; sourceTree = "<group>"; };
+		CD60D526191A1BCB00782EDF /* FailedBanksDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FailedBanksDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD60D4BE191A00D700782EDF /* libsqlite3.dylib in Frameworks */,
 				CD60D491191A00AB00782EDF /* CoreGraphics.framework in Frameworks */,
 				CD60D493191A00AB00782EDF /* UIKit.framework in Frameworks */,
 				CD60D48F191A00AB00782EDF /* Foundation.framework in Frameworks */,
@@ -96,6 +122,7 @@
 		CD60D48D191A00AB00782EDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CD60D4BD191A00D700782EDF /* libsqlite3.dylib */,
 				CD60D48E191A00AB00782EDF /* Foundation.framework */,
 				CD60D490191A00AB00782EDF /* CoreGraphics.framework */,
 				CD60D492191A00AB00782EDF /* UIKit.framework */,
@@ -107,8 +134,20 @@
 		CD60D494191A00AB00782EDF /* FailedBanks */ = {
 			isa = PBXGroup;
 			children = (
+				CD60D4BF191A027000782EDF /* banklist */,
 				CD60D49D191A00AB00782EDF /* AppDelegate.h */,
 				CD60D49E191A00AB00782EDF /* AppDelegate.m */,
+				CD60D51E191A166800782EDF /* FailedBankListViewController.h */,
+				CD60D51F191A166800782EDF /* FailedBankListViewController.m */,
+				CD60D524191A1BCB00782EDF /* FailedBanksDetailViewController.h */,
+				CD60D525191A1BCB00782EDF /* FailedBanksDetailViewController.m */,
+				CD60D526191A1BCB00782EDF /* FailedBanksDetailViewController.xib */,
+				CD60D518191A0E9800782EDF /* FailedBankInfo.h */,
+				CD60D519191A0E9800782EDF /* FailedBankInfo.m */,
+				CD60D51B191A0EE100782EDF /* FailedBankDatabase.h */,
+				CD60D51C191A0EE100782EDF /* FailedBankDatabase.m */,
+				CD60D521191A19AA00782EDF /* FailedBankDetails.h */,
+				CD60D522191A19AA00782EDF /* FailedBankDetails.m */,
 				CD60D4A0191A00AB00782EDF /* Images.xcassets */,
 				CD60D495191A00AB00782EDF /* Supporting Files */,
 			);
@@ -142,6 +181,16 @@
 				CD60D4B0191A00AB00782EDF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD60D4BF191A027000782EDF /* banklist */ = {
+			isa = PBXGroup;
+			children = (
+				CD60D4C0191A027000782EDF /* banklist.csv */,
+				CD60D4C1191A027000782EDF /* banklist.sqlite3 */,
+				CD60D4C2191A027000782EDF /* parseBanklist.py */,
+			);
+			path = banklist;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD60D528191A1BCB00782EDF /* FailedBanksDetailViewController.xib in Resources */,
 				CD60D499191A00AB00782EDF /* InfoPlist.strings in Resources */,
 				CD60D4A1191A00AB00782EDF /* Images.xcassets in Resources */,
+				CD60D4C3191A027000782EDF /* banklist.csv in Resources */,
+				CD60D4C4191A027000782EDF /* banklist.sqlite3 in Resources */,
+				CD60D4C5191A027000782EDF /* parseBanklist.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +292,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD60D520191A166800782EDF /* FailedBankListViewController.m in Sources */,
+				CD60D523191A19AA00782EDF /* FailedBankDetails.m in Sources */,
 				CD60D49F191A00AB00782EDF /* AppDelegate.m in Sources */,
 				CD60D49B191A00AB00782EDF /* main.m in Sources */,
+				CD60D51A191A0E9800782EDF /* FailedBankInfo.m in Sources */,
+				CD60D51D191A0EE100782EDF /* FailedBankDatabase.m in Sources */,
+				CD60D527191A1BCB00782EDF /* FailedBanksDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
