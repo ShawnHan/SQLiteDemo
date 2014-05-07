@@ -29,6 +29,7 @@
 		CD60D523191A19AA00782EDF /* FailedBankDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D522191A19AA00782EDF /* FailedBankDetails.m */; };
 		CD60D527191A1BCB00782EDF /* FailedBanksDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D525191A1BCB00782EDF /* FailedBanksDetailViewController.m */; };
 		CD60D528191A1BCB00782EDF /* FailedBanksDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD60D526191A1BCB00782EDF /* FailedBanksDetailViewController.xib */; };
+		CD60D52B191A343F00782EDF /* RightDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD60D52A191A343F00782EDF /* RightDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,8 @@
 		CD60D524191A1BCB00782EDF /* FailedBanksDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FailedBanksDetailViewController.h; sourceTree = "<group>"; };
 		CD60D525191A1BCB00782EDF /* FailedBanksDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FailedBanksDetailViewController.m; sourceTree = "<group>"; };
 		CD60D526191A1BCB00782EDF /* FailedBanksDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FailedBanksDetailViewController.xib; sourceTree = "<group>"; };
+		CD60D529191A343F00782EDF /* RightDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightDetailViewController.h; sourceTree = "<group>"; };
+		CD60D52A191A343F00782EDF /* RightDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 				CD60D524191A1BCB00782EDF /* FailedBanksDetailViewController.h */,
 				CD60D525191A1BCB00782EDF /* FailedBanksDetailViewController.m */,
 				CD60D526191A1BCB00782EDF /* FailedBanksDetailViewController.xib */,
+				CD60D529191A343F00782EDF /* RightDetailViewController.h */,
+				CD60D52A191A343F00782EDF /* RightDetailViewController.m */,
 				CD60D518191A0E9800782EDF /* FailedBankInfo.h */,
 				CD60D519191A0E9800782EDF /* FailedBankInfo.m */,
 				CD60D51B191A0EE100782EDF /* FailedBankDatabase.h */,
@@ -298,6 +303,7 @@
 				CD60D49B191A00AB00782EDF /* main.m in Sources */,
 				CD60D51A191A0E9800782EDF /* FailedBankInfo.m in Sources */,
 				CD60D51D191A0EE100782EDF /* FailedBankDatabase.m in Sources */,
+				CD60D52B191A343F00782EDF /* RightDetailViewController.m in Sources */,
 				CD60D527191A1BCB00782EDF /* FailedBanksDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,6 +501,7 @@
 				CD60D4B9191A00AB00782EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD60D4BA191A00AB00782EDF /* Build configuration list for PBXNativeTarget "FailedBanksTests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +510,7 @@
 				CD60D4BC191A00AB00782EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

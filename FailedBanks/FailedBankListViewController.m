@@ -10,6 +10,8 @@
 #import "FailedBankDatabase.h"
 #import "FailedBankInfo.h"
 #import "FailedBanksDetailViewController.h"
+#import "RightDetailViewController.h"
+
 @interface FailedBankListViewController ()
 
 @end
@@ -33,6 +35,8 @@
     self.failedBankInfos = [FailedBankDatabase database].failedBankInfos;
     
     self.title = @"Failed Banks";
+    
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"right" style:UIBarButtonItemStylePlain target:self action:@selector(rightDetailView)];
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -40,6 +44,13 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+-(void)rightDetailView
+{
+    RightDetailViewController *rightView = [[RightDetailViewController alloc] init];
+    
+    [self.navigationController pushViewController:rightView animated:YES];
+    
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

@@ -24,7 +24,7 @@
     
     NSArray *failedBankInfos = [FailedBankDatabase database].failedBankInfos;
     for (FailedBankInfo *info in failedBankInfos) {
-        NSLog(@"%d: %@, %@, %@", info.uniqueId, info.name, info.city, info.state);
+        //NSLog(@"%d: %@, %@, %@", info.uniqueId, info.name, info.city, info.state);
     }
     
     self.window.rootViewController = nav;
